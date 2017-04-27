@@ -104,6 +104,7 @@ public class BootstrapPersister implements ExtensibleConfigurationPersister {
                 new RunningModeControl(RunningMode.NORMAL),
                 null,
                 null,
+                null,
                 RuntimeHostControllerInfoAccessor.SERVER
         );
         StandaloneXml parser = new StandaloneXml(Module.getBootModuleLoader(), Executors.newSingleThreadExecutor(), extensionRegistry);

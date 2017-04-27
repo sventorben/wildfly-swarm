@@ -25,8 +25,8 @@
   <properties>
     <swarm.fraction.internal>true</swarm.fraction.internal>
     <swarm.fraction.stability>stable</swarm.fraction.stability>
-    <version.weld-api>2.3.SP2</version.weld-api>
-    <version.weld>2.3.5.Final</version.weld>
+    <version.weld-api>2.4.SP1</version.weld-api>
+    <version.weld>2.4.3.Final</version.weld>
     <version.cdi>1.2</version.cdi>
   </properties>
 
@@ -139,7 +139,12 @@
       <version>${version.weld}</version>
       <scope>provided</scope>
     </dependency>
-
+    <dependency>
+      <groupId>org.jboss.weld</groupId>
+      <artifactId>weld-api</artifactId>
+      <version>${version.weld-api}</version>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
